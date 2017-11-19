@@ -15,8 +15,6 @@ public class MailClient
     private int entregados;
     //mensajes recibidos.
     private int recibidos;
-    //mensaje
-    private String mensaje;
     //el numero de caracteres 
     private int caracteres;
     //contador
@@ -30,7 +28,6 @@ public class MailClient
         this.user = user;
         entregados= 0;
         recibidos = 0;
-        mensaje = mensaje;
         caracteres = 0;
         this.enviados = 0;
     }
